@@ -925,9 +925,9 @@ local b, c = {
     Author = 'Depso',
     License = 'GNU-GPLv3',
     Repository = 
-[[https://github.com/Awakenchan/Sigma-Spy/tree/main/Roblox-Parser]],
+[[https://github.com/KeneiUmaru/SigmaSpy/tree/main/Roblox-Parser]],
     ImportUrl = 
-[[https://raw.githubusercontent.com/Awakenchan/Sigma-Spy/main/Roblox-Parser/refs/heads/main]],
+[[https://raw.githubusercontent.com/KeneiUmaru/SigmaSpy/main/Roblox-Parser/refs/heads/main]],
     Modules = {
         Formatter = a.load'a',
         Parser = a.load'b',
