@@ -105,7 +105,7 @@ function Ui:Init(Data)
 	Files = Modules.Files
 
 	--// ReGui
-    ReGui = loadstring(game:HttpGet('https://raw.githubusercontent.com/Awakenchan/Sigma-Spy/refs/heads/main/lib/Regui.luau'))()
+    ReGui = loadstring(game:HttpGet('https://raw.githubusercontent.com/KeneiUmaru/SigmaSpy/refs/heads/main/lib/Regui.luau'))()
 	self:LoadFont()
 	self:LoadReGui()
 	self:CheckScale()
