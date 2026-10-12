@@ -61,7 +61,7 @@ local Generation = {
 --// Modules
 local Config
 local Hook
-local ParserModule = loadstring(game:HttpGet('https://raw.githubusercontent.com/Awakenchan/Sigma-Spy/refs/heads/main/lib/RobloxParser'))()
+local ParserModule = loadstring(game:HttpGet('https://raw.githubusercontent.com/KeneiUmaru/SigmaSpy/refs/heads/main/lib/RobloxParser'))()
 
 local Flags
 local ThisScript = script
