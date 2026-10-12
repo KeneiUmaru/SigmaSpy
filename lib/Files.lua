@@ -8,7 +8,7 @@ local Files = {
 	Folder = "Sigma spy",
 	RepoUrl = nil,
 	FolderStructure = {
-		["Sigma Spy"] = {
+		["SigmaSpy"] = {
 			"assets",
 		}
 	}
