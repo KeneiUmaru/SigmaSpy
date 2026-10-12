@@ -16,7 +16,7 @@ type RemoteData = {
 --// Module
 local Generation = {
 	DumpBaseName = "SigmaSpy-Dump %s.lua", -- "-- Generated with sigma spy BOIIIIIIIII (+9999999 AURA)\n"
-	Header = "-- Generated with Sigma Spy BOI @awaken was here",
+	Header = "-- Generated with Sigma Spy BOI @keneikung was here",
 	ScriptTemplates = {
 		["Remote"] = {
 			{"%RemoteCall%"}
