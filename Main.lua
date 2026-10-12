@@ -3,8 +3,8 @@ local Configuration = {
 	UseWorkspace = false, 
 	NoActors = false,
 	FolderName = "Sigma Spy",
-	RepoUrl = [[https://raw.githubusercontent.com/Awakenchan/Sigma-Spy/main]],
-	ParserUrl = [[https://raw.githubusercontent.com/Awakenchan/Sigma-Spy/refs/heads/main/lib/RobloxParser]],
+	RepoUrl = [[https://raw.githubusercontent.com/KeneiUmaru/SigmaSpy/main]],
+	ParserUrl = [[https://raw.githubusercontent.com/KeneiUmaru/SigmaSpy/refs/heads/main/lib/RobloxParser]],
     Directory = "Sigma Spy"
 }
 
