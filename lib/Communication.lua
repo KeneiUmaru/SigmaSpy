@@ -105,7 +105,12 @@ function Module:CreateCommChannel(): (number, BindableEvent)
     --// Use native if it exists
     local Force = Config.ForceUseCustomComm
     if create_comm_channel and not Force then
-        return create_comm_channel()
+        local ChannelId, Channel = create_comm_channel()
+        --// Volt returns a table wrapper with no :Fire; the BindableEvent is in .Internal
+        if type(Channel) == "table" and rawget(Channel, "Internal") then
+            Channel = rawget(Channel, "Internal")
+        end
+        return ChannelId, Channel
     end
 
     local Parent = self:GetHiddenParent()
